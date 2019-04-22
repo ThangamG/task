@@ -17,7 +17,6 @@ class RoomBooking extends Component {
     roomAddHandler = event => {
         let availableRooms = this.state.room;
         let availableAdults = this.state.adult;
-        let availableChildren = this.state.children;
 
         if(availableRooms >= availableAdults)
             availableAdults++;
@@ -140,8 +139,8 @@ class RoomBooking extends Component {
 
         availableChildren--;
 
-        let totalheadcount = availableAdults + availableChildren;
-        let possibleheadcount = availableRooms * 5;
+        // let totalheadcount = availableAdults + availableChildren;
+        // let possibleheadcount = availableRooms * 5;
 
         // if(availableRooms > availableAdults)
         //      availableRooms--;
