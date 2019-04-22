@@ -1,0 +1,16 @@
+
+.adult, .plus, .subtract, .children, .room{
+    height: 25px;
+    width: 25px;
+}
+
+.long_column{
+    padding:0 50px 0 50px;
+}
+td{
+    padding:30px;
+}
+.table_property{
+    margin-top: 150px;
+}
+
